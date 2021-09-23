@@ -1,9 +1,11 @@
 import './App.css';
+import { BrowserRouter, Switch} from 'reac'
+import Header from './containers/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
     </div>
   );
 }
